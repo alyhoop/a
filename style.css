@@ -1,7 +1,30 @@
-    h1 {
-      font-family : "Arial;"
+
+
+
+    body {
+      text-align: center;
+      font-stretch: expanded;
+      font-family: 'Shadows Into Light', cursive;
+      background-color: rgba(245, 206, 174, 0);
     }
 
-  .title {
-    color: teal;
-  }
+    h1 {
+    font-family: 'Cedarville Cursive', cursive;
+    color: rgb(237, 152, 175);
+    font-size: 40px;
+    }
+
+    h3 {
+      font-family: 'Cedarville Cursive', cursive;
+      color: rgba(217, 96, 147, 0.72);
+      font-size: 30px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+
+    ul {
+      width: 50%;
+      margin: auto;
+    }
