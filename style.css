@@ -4,18 +4,18 @@
     body {
       text-align: center;
       font-stretch: expanded;
-      font-family: 'Shadows Into Light', cursive;
-      background-color: rgba(245, 206, 174, 0);
+      font-family: 'Shadows Into Light', cursive, serif;
+      background-color:rgba(252, 249, 242, 0);
     }
 
     h1 {
-    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Cedarville Cursive', cursive, serif;
     color: rgb(237, 152, 175);
     font-size: 40px;
     }
 
     h3 {
-      font-family: 'Cedarville Cursive', cursive;
+      font-family: 'Cedarville Cursive', cursive, serif;
       color: rgba(217, 96, 147, 0.72);
       font-size: 30px;
     }
