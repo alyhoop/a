@@ -1,14 +1,14 @@
 #practice-website
 
-Project Title
-An example website I use to practice what I've learned. 
+Project Title:
+-An example website I use to practice what I've learned. 
 
-Built With
-Atom
+Built With:
+-Atom
 
-Author
-Alyssa Hooper
+Author:
+-Alyssa Hooper
 
-Acknowledgments
+Acknowledgments:
 -Manuel Pinto, CSS Template
 -Travis Hooper, code review
