@@ -10,5 +10,5 @@ Author:
 -Alyssa Hooper
 
 Acknowledgments:
--Manuel Pinto, CSS Template
+-Manuel Pinto, CSS Template;
 -Travis Hooper, code review
