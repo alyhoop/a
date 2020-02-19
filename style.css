@@ -1,56 +1,65 @@
+body {
+  background-size: 100%;
+  background-position: center;
+  background-repeat: space;
+  height: 300vh;
+  text-align: center;
+  font-stretch: expanded;
+  font-family: 'Shadows Into Light', cursive, serif;
+  color: white;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  padding-top: 30px;
+}
 
+@keyframes gradient {
+  0% {
+  	background-position: 0% 50%;
+  }
+	50% {
+  	background-position: 100% 50%;
+  }
+  100% {
+  	background-position: 0% 50%;
+  }
+}
 
+h1 {
+  font-family: 'Cedarville Cursive', cursive, serif;
+  color: white;
+  font-size: 40px;
+}
 
-    body {
+h3 {
+  font-family: 'Cedarville Cursive', cursive, serif;
+  color: white;
+  font-size: 30px;
+}
 
-      background-size : 100%;
-      background-position: center;
-      background-repeat: space;
-      height:300vh;
-      text-align: center;
-      font-stretch: expanded;
-      font-family: 'Shadows Into Light', cursive, serif;
-      color: white;
-      background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	    background-size: 400% 400%;
-	    animation: gradient 15s ease infinite;
-    }
+ul {
+  width: 50%;
+  margin: auto;
+  color: white;
+}
 
-    @keyframes gradient {
-	  0% {
-		background-position: 0% 50%;
-	  }
-  	50% {
-		background-position: 100% 50%;
-	  }
-	  100% {
-		background-position: 0% 50%;
-	  }
-    }
-      color: white;
-      font-size: 18px;
-    }
+table {
+  border: 1px solid white;
+  border-collapse: collapse;
+  padding-bottom: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  width: 50%;
+  margin: 0 auto;
+}
 
-    h1 {
-    font-family: 'Cedarville Cursive', cursive, serif;
-    color: white;
-    font-size: 40px;
-    }
+td {
+  border: 1px solid white;
+  padding: 15px;
+}
 
-    h3 {
-      font-family: 'Cedarville Cursive', cursive, serif;
-      color: white;
-      font-size: 30px;
-    }
-
-    ul {
-      width: 50%;
-      margin: auto;
-      color: white;
-    }
-
-    #body {
-      background-color: rgba(236, 90, 226, 0.4);
-      max-width: 970px;
-      margin: auto;
-    }
+#body {
+  background-color: rgba(236, 90, 226, 0.4);
+  max-width: 970px;
+  margin: auto;
+}

@@ -1,8 +1,5 @@
 
 
 function go(){
-  alert('hi');
-  alert('hey there');
+  alert('Hi, there!');
 }
-
-go();
