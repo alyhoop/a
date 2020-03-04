@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
 * {
-  color: black;
+  color: #505962;
   margin: 0px;
   padding: 1px 0px;
-  font-family: tahoma;
   box-sizing: border-box;
   position: relative;
 }
@@ -13,10 +14,14 @@ header {
   background-size: cover;
 }
 
-h3 {
-  text-align: center;
+body {
+  font-family: 'Lato', sans-serif;
 }
 
-p {
-  text-align: center;
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background: (rgba(0, 0, 0, 0.6));
 }
