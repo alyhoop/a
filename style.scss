@@ -5,19 +5,21 @@ $font-stack:   'Lato', sans-serif;
 
 @media (min-width: 576px) {
 
-    .home {
+    header {
       display: flex;
-      font-size-adjust: auto;
+      align-items: flex-start;
     }
 
-    .info {
-      display: flex;
+    body {
+      margin-right: 400px;
       float: left;
+      font-size-adjust: auto;
     }
 
     .container {
       display: flex;
-      float: left;
+      display: flex;
+      align-items: flex-start;
     }
 }
 
@@ -49,10 +51,6 @@ $font-stack:   'Lato', sans-serif;
 
   .img-name {
     margin: 250px;
-  }
-
-  .info {
-    margin: 300px;
   }
 
   .home {
