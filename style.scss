@@ -3,50 +3,61 @@
 $primary-color: black;
 $font-stack:   'Lato', sans-serif;
 
-* {
-  color: #505962;
-  margin: 0px;
-  padding: 1px 0px;
-  box-sizing: border-box;
-  position: relative;
-  font-style: 100% $font-stack;
+@media (min-width: 576px) {
+
+    .home {
+      display: flex;
+      font-size-adjust: auto;
+    }
+
+    .info {
+      display: flex;
+      float: left;
+    }
+
+    .container {
+      display: flex;
+      float: left;
+    }
 }
 
-header {
-  background-image: linear-gradient(rgba(91, 91, 91, 0.7), rgba(125, 153, 119, 0.7)), url(mtn.jpg);
-  background-size: cover;
-}
+@media (min-width: 1200px) {
+  body {
+    color: #505962;
+    margin: 0px;
+    padding: 1px 0px;
+    box-sizing: border-box;
+    position: relative;
+    font-style: 100% $font-stack;
+  }
 
-.navbar {
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: .9rem;
-  letter-spacing: .1rem;
-  background: (rgba(0, 0, 0, 0.6));
-}
+  header {
+    background-image: linear-gradient(rgba(91, 91, 91, 0.7), rgba(125, 153, 119, 0.7)), url(mtn.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
 
-.img-name {
-  margin: 250px;
-}
+  .navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background: (rgba(0, 0, 0, 0.6));
+  }
 
-.info {
-  margin: 300px;
-}
+  .img-name {
+    margin: 250px;
+  }
 
-.home {
-  margin: 0px;
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
+  .info {
+    margin: 300px;
+  }
 
-.fa-github {
-  color: $primary-color;
-}
-
-.fa-linkedin {
-  color: $primary-color;
-}
-
-.fa-envelope {
-  color: $primary-color;
+  .home {
+    margin: 0px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
 }
