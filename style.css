@@ -5,11 +5,16 @@
   padding: 1px 0px;
   box-sizing: border-box;
   position: relative;
-  font-style: 100% "Lato", sans-serif; }
+  font-style: "Lato", sans-serif; }
 
 header {
-  background-image: linear-gradient(rgba(91, 91, 91, 0.7), rgba(125, 153, 119, 0.7)), url(mtn.jpg);
-  background-size: cover; }
+  background-image: url(mtn.jpg);
+  background-size: cover;
+  width: 100%;
+  padding: 10%; }
+
+.center {
+  padding: 35% 35%; }
 
 .navbar {
   text-transform: uppercase;
@@ -18,11 +23,8 @@ header {
   letter-spacing: .1rem;
   background: rgba(0, 0, 0, 0.6); }
 
-.img-name {
-  margin: 250px; }
-
-.info {
-  margin: 300px; }
+#info {
+  padding: 30%; }
 
 .home {
   margin: 0px;
